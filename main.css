@@ -1,0 +1,39 @@
+body{
+	font-family: helvetica;
+}
+
+/**************
+SPAN HEADER
+******************/
+
+header{
+	margin: 0;
+	color: grey;
+}
+
+span{
+	float: left;
+	font-size: 1em;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+li {
+	display: inline;
+	padding: 5px 10px;
+}
+
+li:hover {
+	color: black;
+}
+
+
+/**************
+HEADER
+******************/
+#header_pic{
+	
+}
