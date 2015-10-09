@@ -9,6 +9,7 @@ SPAN HEADER
 header{
 	margin: 0;
 	color: grey;
+	position: relative;
 }
 
 span{
@@ -35,5 +36,10 @@ li:hover {
 HEADER
 ******************/
 #header_pic{
-	
+	background: url("https://github.com/tiy-lv-frontend-2015-10/Assignments/blob/master/Assignment-04/Normal-Mode/assets/background.jpg?raw=true")
+	no-repeat;
+	background-size: center center;
+	margin: 0px;
+	position: relative;
+
 }
