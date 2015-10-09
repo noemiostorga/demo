@@ -61,37 +61,19 @@ h1{
 /**************
 PRICE
 ******************/
+
+
 .price-col {
 	float: left;
 	position: relative;
 	top:10px;
+    left: 184px;
 	text-align: center;
-    margin: 10px 50px;
-    padding: 10px 15px;
+    padding: 15px 10px;
     font-family: helvetica;
-  	width: 20%;
+  	width: 22%;
 
 }
-
-
-.col-color1{
-	background-color: green;
-	color: white;
-	padding: 20% 30%;
-	float: center;
-	font-family: sans-serif;
-}
-
-.col-color1 p {
-	padding: 0px;
-	margin: 0px;
-}
-
-.col-color1 h4{
-	font-weight: lighter;
-	float: center;
-}
-
 .dollar{
 	font-size: 3.5em;
 	float:center;
@@ -110,33 +92,85 @@ PRICE
 	border-right: 1px solid grey;
 	border-left:1px solid grey;
 	margin: 0px;
-	background: 
+	padding: 10px;
+	background: #F9F8F6;
+	color: #555150;
 }
-
-
-.col-color2{
-	color:blue;
-}
-
-.col-color3{
-	color:black;
-}
-
 
 
 .choose-button{
-	border: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+	border-left:1px solid grey;
+	padding: 15px;
+}
+/*col 1*/
+
+.col-color1{
+	background-color: #409622;
+	color: white;
+	padding: 15% 30%;
+	float: center;
+	font-family: sans-serif;
 }
 
-
-.info{
-	clear: both;
+.col-color1 p {
+	padding: 0px;
+	margin: 0px;
 }
+
+.col-color1 h4{
+	font-weight: lighter;
+	float: center;
+}
+
+/*col2*/
+
+.col-color2{
+	background-color: #234196;
+	color: white;
+	padding: 15% 30%;
+	float: center;
+	font-family: sans-serif;
+}
+
+.col-color2 p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.col-color2 h4{
+	font-weight: lighter;
+	float: center;
+}
+
+/*col3*/
+
+.col-color3{
+	background-color: black;
+	color: white;
+	padding: 15% 30%;
+	float: center;
+	font-family: sans-serif;
+}
+
+.col-color3 p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.col-color3 h4{
+	font-weight: lighter;
+	float: center;
+}
+
 
 /**************
 INFO
 ******************/
-
+.info{
+	clear: both;
+}
 .box {
 	float: left;
 
