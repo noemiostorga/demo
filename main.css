@@ -1,5 +1,7 @@
 body{
 	font-family: helvetica;
+	margin:0px;
+
 }
 
 /**************
@@ -15,6 +17,7 @@ header{
 span{
 	float: left;
 	font-size: 1em;
+	padding: 2px 10px ;
 }
 
 ul{
@@ -24,7 +27,7 @@ ul{
 
 li {
 	display: inline;
-	padding: 5px 10px;
+	padding: 5px 20px;
 }
 
 li:hover {
@@ -36,10 +39,118 @@ li:hover {
 HEADER
 ******************/
 #header_pic{
-	background: url("https://github.com/tiy-lv-frontend-2015-10/Assignments/blob/master/Assignment-04/Normal-Mode/assets/background.jpg?raw=true")
-	no-repeat;
-	background-size: center center;
-	margin: 0px;
+	background: url("background.jpg") no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	color: white;
 	position: relative;
+	padding: 0px;
+	position: relative;
+	margin-top:-15px;
+}
+
+
+h1{
+	position: relative;
+    top: 100px;
+}
+
+/**************
+PRICE
+******************/
+.price-col {
+	float: left;
+	position: relative;
+	top:10px;
+	text-align: center;
+    margin: 10px 50px;
+    padding: 10px 15px;
+    font-family: helvetica;
+  	width: 20%;
 
 }
+
+
+.col-color1{
+	background-color: green;
+	color: white;
+	padding: 20% 30%;
+	float: center;
+	font-family: sans-serif;
+}
+
+.col-color1 p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.col-color1 h4{
+	font-weight: lighter;
+	float: center;
+}
+
+.dollar{
+	font-size: 3.5em;
+	float:center;
+	font-weight: lighter;
+}
+
+.cap{
+	font-family: helvetica;
+	font-weight: 100;
+	padding: 10px ;
+}
+
+
+.features p{
+	border-bottom: 1px solid grey;
+	border-right: 1px solid grey;
+	border-left:1px solid grey;
+	margin: 0px;
+	background: 
+}
+
+
+.col-color2{
+	color:blue;
+}
+
+.col-color3{
+	color:black;
+}
+
+
+
+.choose-button{
+	border: 1px solid grey;
+}
+
+
+.info{
+	clear: both;
+}
+
+/**************
+INFO
+******************/
+
+.box {
+	float: left;
+
+}
+
+
+/******************
+PRICE
+******************/
+footer p span  {
+
+	text-align: center;
+	clear: both;
+
+}
+
+
