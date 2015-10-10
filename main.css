@@ -168,23 +168,46 @@ PRICE
 /**************
 INFO
 ******************/
-.info{
-	clear: both;
+.info {
+	box-sizing: border-box;
+    width: 85%;
+    position: relative;
+    right: 102px;
+    top: 45px;
 }
-.box {
-	float: left;
 
-}
+
+.box{
+float: left;
+width: 40%;
+position: relative;
+left: 300px;
+padding: 0px 10px 0px 10px;	
+	}
 
 
 /******************
 PRICE
 ******************/
-footer p span  {
-
-	text-align: center;
-	clear: both;
+footer {
+	top: 40px;
+	position: relative;
+	display: inline-block;
+	background: black;
+	width: 100%;
+	margin: 0px;
 
 }
+
+/*top: 810px;
+	position: relative;*/
+
+footer p {
+	color: white;
+	position: relative;
+	text-align: center;
+
+}
+
 
 
