@@ -164,7 +164,9 @@ PRICE
 	float: center;
 }
 
-
+button {
+	font-weight: bold;
+}
 /**************
 INFO
 ******************/
@@ -185,29 +187,30 @@ left: 300px;
 padding: 0px 10px 0px 10px;	
 	}
 
-
+.mini-header {
+	font-weight: bold;
+}
 /******************
-PRICE
+FOOTER
 ******************/
 footer {
 	top: 40px;
+	float: right;
 	position: relative;
 	display: inline-block;
 	background: black;
 	width: 100%;
 	margin: 0px;
+	color: white;
 
 }
-
-/*top: 810px;
-	position: relative;*/
 
 footer p {
-	color: white;
 	position: relative;
-	text-align: center;
-
+	left: 330px;
 }
 
-
+footer a {
+	color: white;
+}
 
