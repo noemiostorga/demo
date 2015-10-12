@@ -74,6 +74,10 @@ PRICE
   	width: 22%;
 
 }
+
+.price-col p {
+	font-family: 'Open Sans', sans-serif;
+}
 .dollar{
 	font-size: 3.5em;
 	float:center;
@@ -81,7 +85,8 @@ PRICE
 }
 
 .cap{
-	font-family: helvetica;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
 	font-weight: 100;
 	padding: 10px ;
 }
@@ -102,7 +107,13 @@ PRICE
 	border-bottom: 1px solid grey;
 	border-right: 1px solid grey;
 	border-left:1px solid grey;
-	padding: 15px;
+	padding: 20px;
+}
+
+button {
+	font-weight: bold;
+	
+
 }
 /*col 1*/
 
@@ -188,7 +199,9 @@ padding: 0px 10px 0px 10px;
 	}
 
 .mini-header {
-	font-weight: bold;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 }
 /******************
 FOOTER
